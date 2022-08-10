@@ -396,7 +396,7 @@ section:nth-of-type(2) .hexagon i {
 }
 @media screen and (max-width: 786px) {
     .label {
-        font-size: 28px;
+        font-size: 26px;
     }
 }
 element.style {
