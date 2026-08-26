@@ -94,7 +94,7 @@
 					</a>
 					<div class="nav__small__text" data-w-id="8e7e63b9-1b7e-a6bc-ddac-807edb92ba1a" id="w-node-_8e7e63b9-1b7e-a6bc-ddac-807edb92ba1a-0097a1a0" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 						TECHNICAL / CREATIVE<br>
-						PORTFOLIO &nbsp;/ 2020 — 2022
+						PORTFOLIO &nbsp;/ 2020 — 2026
 					</div>
 					<div class="nav__small__text" data-w-id="407d2c11-ebb9-504f-eaae-76adffc9779b" id="w-node-_407d2c11-ebb9-504f-eaae-76adffc9779b-0097a1a0" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
 						AVAILABLE FOR <br> 
@@ -159,11 +159,11 @@
 						</a>
 					</div>
 					<div class="hero__coords" data-w-id="30a330bc-833a-e1ef-15a1-ffcbfde11b94" id="w-node-_30a330bc-833a-e1ef-15a1-ffcbfde11b94-0097a1a0" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"> Location: <br>
-						N &nbsp;40.7128°<br>
+						N &nbsp;43.6532°<br>
 						 W &nbsp;74.0060°
 					</div>
 					<div class="hero__copyright" data-w-id="c131efdc-5258-a8ff-d619-92cf4741eff1" id="w-node-c131efdc-5258-a8ff-d619-92cf4741eff1-0097a1a0" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;">
-						© 2022
+						© 2026
 					</div>
 				</div>
 			</div>
@@ -321,8 +321,97 @@
 
 		<section class="portfolioSec" id="mahumsprojects">
 			<div class="containerPortfolio">
-
 				<!-- 1 -->
+				<div class="cardPortfolio reveal" id="cloudArtistProject">
+					<div class="imgBx">
+						<img src="images/cloudartist1.png">
+					</div> <!-- imgBx ends -->
+					<div class="contentPortfolio">
+						<h3>Cloud Artist Platform — Serverless AI Intelligence System</h3>
+						<br>
+						<p class="para">Production-grade, event-driven AI platform on AWS that auto-tags artwork using computer vision, served through a live dashboard</p>
+						<!-- Break -->
+						<p class="para" id="listItems">S3-triggered Lambda pipeline analyzed with Amazon Rekognition</p>
+						<p class="para" id="listItems">Full infrastructure provisioned with Terraform (IaC)</p>
+						<p class="para" id="listItems">Custom VPC with public/private subnets and EC2 bastion host</p>
+						<p class="para" id="listItems">DynamoDB storage, API Gateway, and CloudFront-distributed frontend</p>
+						<p class="para" id="listItems">Dockerized admin auditing tool for S3/DynamoDB consistency checks</p>
+						<p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Mahum-Haider/Serverless-AI-Intelligence-System-on-AWS"><img height="16" width="14" src="https://www.joelwigton.com/static/assets/github.svg">&nbsp;&nbsp;View code on GitHub</a></p>
+					</div>
+				</div> <!-- card ends -->
+
+				<!-- 2 -->
+				<div class="cardPortfolio reveal" id="multiAccountProject">
+					<div class="imgBx">
+						<img src="images/multiaccount1.png">
+					</div> <!-- imgBx ends -->
+					<div class="contentPortfolio">
+						<h3>AWS Multi-Account Organization Governance</h3>
+						<br>
+						<p class="para">Enterprise-scale multi-account AWS architecture for a pharmaceutical org, covering OU hierarchy, networking, and cost governance</p>
+						<!-- Break -->
+						<p class="para" id="listItems">3-tier AWS Organizations structure with Control Tower</p>
+						<p class="para" id="listItems">Cross-region VPC peering between production workloads</p>
+						<p class="para" id="listItems">SCPs and AWS Config rules enforcing org-wide tagging compliance</p>
+						<p class="para" id="listItems">Tiered AWS Budgets with automated cost alerts</p>
+						<p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Mahum-Haider/aws-multi-account-organization-governance"><img height="16" width="14" src="https://www.joelwigton.com/static/assets/github.svg">&nbsp;&nbsp;View code on GitHub</a></p>
+					</div>
+				</div> <!-- card ends -->
+
+				<!-- 3 -->
+				<div class="cardPortfolio reveal" id="haProject">
+					<div class="imgBx">
+						<img src="images/ha1.png">
+					</div> <!-- imgBx ends -->
+					<div class="contentPortfolio">
+						<h3>AWS Highly Available Web Application</h3>
+						<br>
+						<p class="para">Multi-AZ, fault-tolerant web application architecture built to simulate a real-world production environment</p>
+						<!-- Break -->
+						<p class="para" id="listItems">Auto Scaling Group with Application Load Balancer across AZs</p>
+						<p class="para" id="listItems">Multi-AZ RDS (MySQL) for database fault tolerance</p>
+						<p class="para" id="listItems">CloudWatch alarms with SNS email notifications</p>
+						<p class="para" id="listItems">Simulated failure testing to validate self-healing</p>
+						<p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Mahum-Haider/aws-high-availability-project"><img height="16" width="14" src="https://www.joelwigton.com/static/assets/github.svg">&nbsp;&nbsp;View code on GitHub</a></p>
+					</div>
+				</div> <!-- card ends -->
+
+				<!-- 4 -->
+				<div class="cardPortfolio reveal" id="urlShortenerProject">
+					<div class="imgBx">
+						<img src="images/urlshortener1.png">
+					</div> <!-- imgBx ends -->
+					<div class="contentPortfolio">
+						<h3>DevSummit URL Shortener</h3>
+						<br>
+						<p class="para">Fully serverless URL shortener built for a conference use case — branded short links with click tracking</p>
+						<!-- Break -->
+						<p class="para" id="listItems">Lambda + API Gateway handling create and redirect flows</p>
+						<p class="para" id="listItems">DynamoDB with GSI for reverse lookup and duplicate detection</p>
+						<p class="para" id="listItems">301 redirects with millisecond-latency lookups</p>
+						<p class="para" id="listItems">Least-privilege IAM role scoped to a single table</p>
+						<p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Mahum-Haider/devsummit-url-shortener"><img height="16" width="14" src="https://www.joelwigton.com/static/assets/github.svg">&nbsp;&nbsp;View code on GitHub</a></p>
+					</div>
+				</div> <!-- card ends -->
+
+				<!-- 5 -->
+				<div class="cardPortfolio reveal" id="ec2s3Project">
+					<div class="imgBx">
+						<img src="images/ec2s3iam1.png">
+					</div> <!-- imgBx ends -->
+					<div class="contentPortfolio">
+						<h3>EC2 & S3 Integration via IAM Roles</h3>
+						<br>
+						<p class="para">Secure file transfer from a Linux EC2 instance to S3 using IAM roles instead of hardcoded credentials</p>
+						<!-- Break -->
+						<p class="para" id="listItems">IAM role-based access — no stored access keys on the instance</p>
+						<p class="para" id="listItems">Security group configured for controlled SSH access</p>
+						<p class="para" id="listItems">File upload verified via AWS CLI from EC2 to S3</p>
+						<p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Mahum-Haider/aws-ec2-s3-iam-integration"><img height="16" width="14" src="https://www.joelwigton.com/static/assets/github.svg">&nbsp;&nbsp;View code on GitHub</a></p>
+					</div>
+				</div> <!-- card ends -->
+
+				<!-- 6 -->
 				<div class="cardPortfolio reveal" id="CapstoneProject">
 					<div class="imgBx">
 						<img src="images/fsnd5.png">
@@ -344,7 +433,7 @@
 
 				
 
-				<!-- 2 -->
+				<!-- 7 -->
 				<div class="cardPortfolio reveal" id="fyyurProject">
 					<div class="imgBx">
 						<img src="images/fsnd1.png">
@@ -364,7 +453,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 3 -->
+				<!-- 8 -->
 				<div class="cardPortfolio reveal">
 					<div class="imgBx">
 						<img src="images/fsnd2.png">
@@ -385,7 +474,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 4 -->
+				<!-- 9 -->
 				<div class="cardPortfolio reveal" id="awsProject">
 					<div class="imgBx">
 						<img src="images/fsnd4.png">
@@ -404,7 +493,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 5 -->
+				<!-- 10 -->
 				<div class="cardPortfolio reveal">
 					<div class="imgBx">
 						<img src="images/fsnd3.png">
@@ -423,7 +512,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 6 -->
+				<!-- 11 -->
 				<div class="cardPortfolio reveal" id="jSProject">
 					<div class="imgBx">
 						<img src="images/fend1.png">
@@ -443,7 +532,7 @@
 				</div> <!-- card ends -->
 
 
-				<!-- 7 -->
+				<!-- 12 -->
 				<div class="cardPortfolio reveal">
 					<div class="imgBx">
 						<img src="images/fend2.png">
@@ -462,7 +551,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 8 -->
+				<!-- 13 -->
 				<div class="cardPortfolio reveal">
 					<div class="imgBx">
 						<img src="images/fend3.png">
@@ -481,7 +570,7 @@
 					</div>
 				</div> <!-- card ends -->
 
-				<!-- 9 -->
+				<!-- 14 -->
 				<div class="cardPortfolio reveal">
 					<div class="imgBx">
 						<img src="images/fend4.png">
@@ -498,6 +587,7 @@
 						<!-- <p class="para" id="listItems"><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/9B8bfP_BlAM"><img height="16" width="16" src="https://www.joelwigton.com/static/assets/youtube.svg">&nbsp;&nbsp;Watch the Video</a></p> -->
 					</div>
 				</div> <!-- card ends -->
+
 
 			</div> <!-- container ends -->
 		</section>
@@ -606,13 +696,13 @@
 						</div>
 						<div class="footer__mobile__content">
 							<div class="footer__small is--center" id="w-node-_0e1fef75-fa66-7640-d72f-fd89a5564d2e-a5564d15">
-								PORTFOLIO 2022✺
+								PORTFOLIO 2026✺
 							</div>
 							<div class="footer__link" id="w-node-_0e1fef75-fa66-7640-d72f-fd89a5564d30-a5564d15">
 								works from
 							</div>
 							<div class="footer__link" id="w-node-_0e1fef75-fa66-7640-d72f-fd89a5564d32-a5564d15">
-								2020 – 2022
+								2020 – 2026
 							</div>
 							<div class="footer__link" id="w-node-_0e1fef75-fa66-7640-d72f-fd89a5564d34-a5564d15">
 								<a href="mailto:mahum.haider@gmail.com">contact me</a>
@@ -636,7 +726,7 @@
 									Works from:
 								</div> -->
 								<!-- <div class="footer__no--link">
-									2020 – 2022
+									2020 – 2026
 								</div> -->
 							</div><a class="footer__link top w--current" href="#top" id="w-node-_0e1fef75-fa66-7640-d72f-fd89a5564d49-a5564d15">Back to top</a>
 						</div>
