@@ -471,7 +471,7 @@ body {
 }
 
 .containerPortfolio .cardPortfolio:hover {
-    height: 725px;
+    height: 900px;
 }
 
 .containerPortfolio .cardPortfolio .imgBx {
@@ -508,6 +508,35 @@ body {
     padding: 0.75rem 1.25rem;
     font-size: 13px;
     border: 1px solid rgba(0,0,0,0.125);
+}
+
+.containerPortfolio .cardPortfolio .contentPortfolio .githubLinkWrap {
+    border: none;
+    padding: 10px 0 0 0;
+    margin-top: 4px;
+}
+
+.containerPortfolio .cardPortfolio .contentPortfolio .githubLinkWrap a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #1d1d1d;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.containerPortfolio .cardPortfolio .contentPortfolio .githubLinkWrap a:hover {
+    background: #444;
+}
+
+.containerPortfolio .cardPortfolio .contentPortfolio .githubLinkWrap a img {
+    filter: invert(1);
 }
 
 @media screen and (max-width: 768px) {
