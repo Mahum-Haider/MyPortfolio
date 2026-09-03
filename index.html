@@ -16,7 +16,6 @@
 	
 	<meta content="https://uploads-ssl.webflow.com/61ffb7e3a4bdb5613297a19f/625728f1375cb918e68c1e09_open-graph.jpg" property="og:image">
 	
-	
 	<meta content="https://uploads-ssl.webflow.com/61ffb7e3a4bdb5613297a19f/625728f1375cb918e68c1e09_open-graph.jpg" property="twitter:image">
 
 	<meta content="width=device-width, initial-scale=1" name="viewport">
@@ -40,10 +39,24 @@
 	       pointer-events:none;   
 	   }
 	 
-	 
 	   ::selection{
 	   	color: #f8f8f8;
 	    background: #1d1d1d;
+	   }
+
+	   /* Fix for uncropped project images */
+	   .portfolioSec .cardPortfolio .imgBx {
+	       display: flex;
+	       align-items: center;
+	       justify-content: center;
+	       overflow: hidden;
+	   }
+
+	   .portfolioSec .cardPortfolio .imgBx img {
+	       width: 100% !important;
+	       height: 100% !important;
+	       object-fit: contain !important;
+	       object-position: center !important;
 	   }
 	</style>
 	<meta content="ILBZMYMZM8i25ADpaMabWhAZ9MikOdskj6nh2p9_UlmQ" name="google-site-verification">
@@ -186,7 +199,7 @@
 			</div>
 		</section>
 
-		<!-- SKILLS SECTION (BEFORE PROJECTS) -->
+		<!-- SKILLS SECTION -->
 		<section class="sectionSkills2">
 			<div class="containerSkills">
 				<div>
