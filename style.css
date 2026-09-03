@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
 }
 
@@ -13,13 +13,11 @@ body {
     float: left;
     width: 25%;
     padding: 10px;
-
 }
 
 .about__img {
     width: 200%;
 }
-
 
 @media screen and (max-width : 600px){
     .column{
@@ -47,7 +45,7 @@ body {
 }
 
 .smallCard:hover {
-    transform: tramslate3d(0, -1px, 0) scale(1.03);
+    transform: translate3d(0, -1px, 0) scale(1.03);
     transition: 0.6s;
 }
 
@@ -72,7 +70,6 @@ body {
 .skillsHeading {
     font-weight: 200;
     margin-bottom: 30px;
-/*    margin-top: 0;*/
     padding: 30px 20px;
     padding-left: 90px;
     text-transform: uppercase;
@@ -93,12 +90,12 @@ body {
     padding-bottom: 20px;
     color: #795548;
 }
+
 .sHeading {
     font-size:3.11rem;
     line-height: 2.508rem;
     margin: 1.14rem 0 0.912rem 0;
     font-weight: 300;
-    /*margin-left: 46%;*/
     padding-top: 10px;
     padding-bottom: 5px;
     color: #f4f4f4;
@@ -106,7 +103,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: montserrat,sans-serif;
-
 }
 
 .card {
@@ -117,7 +113,7 @@ body {
     padding: 10px;
     border-radius: 0 0 2px 2px;
     background-clip: padding-box;
-    box-shadow: 0 2px 5px 0rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .smallHeading {
@@ -135,21 +131,12 @@ body {
 .container2  {
     width: 800px;
     margin: 50px auto 0;
-    display: table;
     box-sizing: border-box;
     display: block;
-   
 }
 
 .rowSkills {
     margin: 5px 0;
-    /*color: #fff;
-    font-size: .8rem;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -174,7 +161,6 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  /*background-color: #272935;*/
   padding: 10px;
   font-size: 3rem;
 }
@@ -184,15 +170,15 @@ body {
   text-align: center;
   font-size: 20px;
 }
+
 .section3 {
     background-color: #272935;
-
 }
+
 .h1skills {
     color: white;
     font-family: montserrat,sans-serif;
 }
-
 
 .sectionSkills2 {
     margin: 0;
@@ -201,7 +187,6 @@ body {
 }
 
 .containerSkills {
-    /*width: 1200px;*/
     margin-right: auto;
     margin-left: auto;
     display: table;
@@ -221,7 +206,6 @@ body {
 
 .featurette-icon {
     display: block;
-    /*width: 30%;*/
     color: #795548;
     font-size: 3rem;
 }
@@ -237,7 +221,6 @@ body {
     color: #f4f4f4;
 }
 
-
 .skillsPara {
     margin-top: 5px;
     font-family: montserrat,sans-serif;
@@ -250,15 +233,12 @@ body {
     font-size: 1.9em;
     font-weight: 200;
 }
+
 @media only screen and (max-width: 390px){
     .skillsPara {
         text-align: center;
     }
 }
-
-
-
-/*-About 4 section*/
 
 .containerAbout {
     width: 100%;
@@ -278,7 +258,6 @@ body {
     width: 220px;
     height: 300px;
     background: #f4f4f4;
-    margin: 20px;
     box-sizing: border-box;
     font-size: 50px;
     font-family: montserrat,sans-serif;
@@ -289,21 +268,14 @@ body {
     margin: 10px;
 }
 
-/*MEDIA QUERIES FOR ABOUT*/
 @media screen and (max-width: 786px) {
     .containerAbout {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 786px) {
     .box {
         width: 40%;
     }
 }
-
-
-
 
 .para {
     font-size: 15px;
@@ -312,21 +284,17 @@ body {
     color: #1d1d1d;
 }
 
-/*MEDIA QUERIES FOR SKILLS*/
 @media screen and (max-width: 1200px) {
     .columnSkills {
         width: 33%;
     }
 }
 
-
-/*About Section*/
-
+/* About Section */
 .aboutSectionTop {
     margin: 20px;
     margin-top: 40px;
     padding: 10px;
-    /*opacity: 0;*/
 }
 
 .gridC {
@@ -346,6 +314,7 @@ body {
     place-items: center;
     margin-left: 30px;
 }
+
 .colAboutButton  {
     color: #1d1d1d;
     display: grid;
@@ -361,7 +330,6 @@ body {
         grid-template-columns: 1fr 2fr 1fr;
         grid-gap: 16px;
         padding: 16px;
-
     }
 }
 
@@ -379,21 +347,18 @@ body {
     }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1500px) {
     .colAboutPara {
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .colAboutPara {
         font-size: 14px;
         margin-bottom: 30px;
         margin-top: 10px;
     }
-}
-
-@media screen and (max-width: 768px) {
     .aboutButton {
         font-size: 0.8rem;
         width: 100%;
@@ -412,14 +377,12 @@ body {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.9s;
-    
 }
 
 .aboutButton:hover {
   box-shadow: inset 400px 0 0 0 #1d1d1d;
   color: #f4f4f4;
 }
-
 
 .aboutSectionTop {
     animation: fadeIn 6s;
@@ -430,15 +393,11 @@ body {
   100% { opacity: 1; }
 }
 
-
-
-/*Approach section starts*/
 .approachSection {
     margin: 30px 20px 70px 65px;
 }
 
-
-/*Portfolio  Section*/
+/* Portfolio Section */
 .portfolioSec {
     display: flex;
     justify-content: center;
@@ -460,7 +419,7 @@ body {
 .containerPortfolio .cardPortfolio {
     position: relative;
     max-width: 300px;
-    height: 215px;
+    height: 310px; /* Base height showing image + title */
     background: #fff;
     margin: 40px 30px;
     padding: 20px 15px;
@@ -471,40 +430,56 @@ body {
 }
 
 .containerPortfolio .cardPortfolio:hover {
-    height: 900px;
+    height: 900px; /* Full expanded height on hover */
 }
 
 .containerPortfolio .cardPortfolio .imgBx {
     position: relative;
-    height: 260px;
-    top: -60px;
+    height: 180px;
+    top: -40px;
     z-index: 1;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.containerPortfolio .cardPortfolio .contentPortfolio {
-    position: relative;
-    margin-top: -140px;
-    /*padding: 10px 15px;*/
-    text-align: center;
-    color: #1d1d1d;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-    display: block;
-    
+.containerPortfolio .cardPortfolio .imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.containerPortfolio .cardPortfolio:hover .contentPortfolio {
+.containerPortfolio .cardPortfolio .contentPortfolio {
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+    color: #1d1d1d;
+    display: block;
+}
+
+/* Title is always visible */
+.containerPortfolio .cardPortfolio .contentPortfolio h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
-    transition-delay: 0.3s;
+}
+
+/* Detailed description content reveals on hover */
+.containerPortfolio .cardPortfolio .contentPortfolio .para,
+.containerPortfolio .cardPortfolio .contentPortfolio br {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.containerPortfolio .cardPortfolio:hover .contentPortfolio .para,
+.containerPortfolio .cardPortfolio:hover .contentPortfolio br {
+    display: block;
+    opacity: 1;
 }
 
 .containerPortfolio .cardPortfolio .contentPortfolio #listItems {
     position: relative;
-    /*display: block;*/
     padding: 0.75rem 1.25rem;
     font-size: 13px;
     border: 1px solid rgba(0,0,0,0.125);
@@ -541,7 +516,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .cardPortfolio {
-        width: 100%
+        width: 100%;
     }
 }
 
@@ -557,34 +532,25 @@ body {
     padding-top: 4.5vw;
 }
 
-
-/*Fade-in Effect*/
-.reveal{
+/* Fade-in Effect */
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: all 1s ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0px);
   opacity: 1;
 }
-
 
 .about {
     color: #616161;
     line-height: 11pt;
     position: relative;
-    margin-bottom: 30px;
-    display: block;
     margin-bottom: 60px;
-}
-
-
-.hex-wrap {
-    height: 100px;
-    width: 100px;
+    display: block;
 }
 
 .hex-wrap {
@@ -617,10 +583,10 @@ body {
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: inherit;
     text-rendering: auto;
-    /* -webkit-font-smoothing: antialiased; */
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
 }
+
 section:nth-of-type(2) .hexagon i {
     color: #fff;
     font-size: 34pt;
@@ -638,17 +604,16 @@ section:nth-of-type(2) .hexagon i {
 .label {
     font-weight: 500;
     font-size: 35px;
-    margin: 25px 15px 25px 15px;
+    margin: 25px 15px;
     text-align: center;
 }
+
 @media screen and (max-width: 786px) {
     .label {
         font-size: 26px;
     }
 }
-element.style {
-    animation-delay: 0.5s;
-}
+
 .hexagon:before {
     background-color: inherit;
     content: "";
@@ -659,6 +624,7 @@ element.style {
     transform: rotateZ(60deg);
     width: inherit;
 }
+
 .hexagon:after {
     background-color: inherit;
     content: "";
@@ -669,40 +635,18 @@ element.style {
     transform: rotateZ(-60deg);
     width: inherit;
 }
+
 @font-face {
     font-family: "Material Design Icons";
     src: url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.eot?v=1.5.54");
     src: url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.eot?#iefix&v=1.5.54") format("embedded-opentype"), url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.woff2?v=1.5.54") format("woff2"), url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.woff?v=1.5.54") format("woff"), url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.ttf?v=1.5.54") format("truetype"), url("http://findmatthew.com/fonts/mdi/css/../fonts/materialdesignicons-webfont.svg?v=1.5.54#materialdesigniconsregular") format("svg");
     font-weight: normal;
-    font-style: normal
-}
-.mdi {
-    display: inline-block;
-    font: normal normal normal 24px/1 "Material Design Icons";
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0)
-}
-.mdi-cellphone-link:before {
-    content: "\F121"
-}
-.mdi-lightbulb-outline:before {
-    content: "\F336"
-}
-.mdi-rocket:before {
-    content: "\F463"
-}
-.mdi-skype:before {
-}
-.mdi-dark.mdi-inactive {
-    color: rgba(0, 0, 0, 0.26)
-}
-.mdi-light {
-    color: #fff
-}
-.mdi-light.mdi-inactive {
-    color: rgba(255, 255, 255, 0.3)
+    font-style: normal;
 }
 
+.mdi-cellphone-link:before { content: "\F121"; }
+.mdi-lightbulb-outline:before { content: "\F336"; }
+.mdi-rocket:before { content: "\F463"; }
+.mdi-dark.mdi-inactive { color: rgba(0, 0, 0, 0.26); }
+.mdi-light { color: #fff; }
+.mdi-light.mdi-inactive { color: rgba(255, 255, 255, 0.3); }
