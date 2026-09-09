@@ -441,10 +441,26 @@ body {
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Make image anchor tags stretch to fit container */
+.containerPortfolio .cardPortfolio .imgBx a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .containerPortfolio .cardPortfolio .imgBx img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Image hover effect */
+.containerPortfolio .cardPortfolio .imgBx a:hover img {
+    opacity: 0.9;
+    transform: scale(1.02);
 }
 
 .containerPortfolio .cardPortfolio .contentPortfolio {
@@ -462,6 +478,18 @@ body {
     margin-bottom: 8px;
     visibility: visible;
     opacity: 1;
+}
+
+/* Clickable Title Links & Hover Styles */
+.containerPortfolio .cardPortfolio .contentPortfolio h3 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.containerPortfolio .cardPortfolio .contentPortfolio h3 a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
 }
 
 /* Detailed description content reveals on hover */
